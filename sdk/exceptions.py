@@ -1,9 +1,9 @@
 
-class StackAuthError(Exception):
+class AuthError(Exception):
     pass
 
-class AccessTokenError(StackAuthError):
+class AccessTokenError(AuthError):
     pass
 
-class APIError(StackAuthError):
+class APIError(AuthError):
     pass

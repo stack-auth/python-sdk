@@ -1,1 +1,1 @@
-from .client import StackAuthClient
+from .client import AuthClient
